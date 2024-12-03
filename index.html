@@ -768,6 +768,32 @@
                       <button type="submit" class="btn">Enviar Mensaje</button>
                       <input type="hidden" name="_captcha" value="false" />
                        <input type="hidden" name="_next" value="https://paginaprincipal-orcin.vercel.app/" />
+                      <div id="message" style="display:none; color: green; font-size: 18px;">
+    Gracias por contactarte con nosotros.
+</div>
+                      <script>
+    // Obtener el formulario y el contenedor del mensaje
+    const form = document.getElementById("contact-form");
+    const messageDiv = document.getElementById("message");
+
+    // Agregar un evento al formulario para manejar el envío
+    form.addEventListener("submit", function(event) {
+        // Evitar el comportamiento predeterminado del formulario
+        event.preventDefault();
+        
+        // Aquí puedes hacer lo que sea necesario para enviar el formulario, 
+        // por ejemplo, usando AJAX o simplemente enviar a la URL configurada en '_next'.
+        
+        // Mostrar el mensaje de confirmación
+        messageDiv.style.display = "block";
+        
+        // Opcionalmente, puedes redirigir al usuario a la página configurada después de unos segundos
+        setTimeout(function() {
+            window.location.href = form.querySelector("input[name='_next']").value;
+        }, 2000); // Redirigir después de 2 segundos
+    });
+</script>
+                      
                       
                     </div>
                   </div>
