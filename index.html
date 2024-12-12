@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Mi Lista de sueños 2</title>
+    <title>Mi Lista de sueños</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
@@ -73,14 +73,17 @@
         </a>
 
         <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#about">Nosotros</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#pricing">Precios</a></li>
+            <li><a href="#contact">Contactanos</a></li>
+          </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
 
-        <a
-          class="btn-getstarted"
-          href="https://paginaprincipal-orcin.vercel.app/"
-          >Volver a la web</a
-        >
+        <a class="btn-getstarted" href="index.html#about">Conocenos</a>
       </div>
     </header>
 
@@ -110,567 +113,668 @@
       <!-- /Hero Section -->
 
       <!-- About Section -->
-
-      <!-- /About Section -->
-      <div id="myModal" class="modal">
-        <div class="modal-content">
-          <span class="close">&times;</span>
-          <h4>Por favor ingresa tus datos</h4>
-          <form class="paymentForm">
-            <div class="form-group">
-              <label for="name">Tu Nombre</label>
-              <input type="text" class="form-control name" required />
+      <section id="about" class="about section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4 align-items-center justify-content-between">
+            <div class="col-xl-5" data-aos="fade-up" data-aos-delay="200">
+              <span class="about-meta">Quienes Somos?</span>
+              <h2 class="about-title">Nuestra historia</h2>
+              <p style="text-align: justify">
+                En "Mi Lista de Sueños", somos una empresa joven, apasionada y
+                llena de sueños, creada por novios y padres que entienden la
+                magia y la emoción que hay detrás de cada celebración especial.
+                Sabemos lo importante que es compartir momentos únicos con tus
+                seres queridos y convertir tus sueños en una realidad. Por eso,
+                diseñamos un servicio que te permite transformar tus ideas en
+                contribuciones concretas, entregándote el dinero recaudado para
+                que lo uses como prefieras.
+              </p>
+              <p style="text-align: justify">
+                Nos mueve la ilusión de ser parte de tus grandes momentos, ya
+                sea tu matrimonio, el bautizo o cumpleaños de un ser querido, o
+                incluso una colecta solidaria. Entendemos lo especial que es
+                cada detalle, porque también hemos estado ahí, soñando con crear
+                recuerdos inolvidables.
+              </p>
+              <p style="text-align: justify">
+                En "Mi Lista de Sueños", no solo somos un servicio: somos una
+                comunidad de soñadores como tú, listos para ayudarte a hacer de
+                tu celebración algo inolvidable. ¡Conócenos y descubre cómo
+                podemos ayudarte a crear recuerdos para toda la vida!
+              </p>
+              <p></p>
+              <div class="info-wrapper">
+                <div class="row gy-4">
+                  <div class="col-lg-5">
+                    <div class="profile d-flex align-items-center gap-3">
+                      <img
+                        src="assets/img/testimonials/carolaa.jpg"
+                        alt="CEO Profile"
+                        class="profile-image"
+                      />
+                      <div>
+                        <h4 class="profile-name">CAROLA</h4>
+                        <p class="profile-position">Dueña &amp; Fundadora</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-7">
+                    <div class="contact-info d-flex align-items-center gap-2">
+                      <i class="bi bi-telephone-fill"></i>
+                      <div>
+                        <p class="contact-label">whatsapp</p>
+                        <a
+                          href="https://wa.me/56961457336"
+                          class="contact-number"
+                          target="_blank"
+                        >
+                          +56961457336
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="form-group">
-              <label for="email">Tu Correo Electrónico</label>
-              <input type="email" class="form-control email" required />
-            </div>
-            <br />
-            <button type="submit" class="btn btn-success">
-              Continuar con el pago
-            </button>
-          </form>
+          </div>
         </div>
-      </div>
+      </section>
+      <!-- /About Section -->
 
       <section id="services" class="services section light-background">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-          <h2>Sueños disponibles de Carola</h2>
-        </div>
-        <div class="product-grid">
-          <div class="product-card">
-            <img src="./assets/img/baculo.jpg" alt="Set de Platos" />
-            <div class="product-info">
-              <h3>Báculo Sagrado de Goku</h3>
-              <p style="text-align: justify">
-                ¡Transforma al celebrante en un verdadero guerrero Saiyajin! Con
-                este Báculo Sagrado de Goku, la persona celebrando podrá
-                canalizar todo el poder de los dioses. Tus invitados podrán
-                hacer realidad este deseo, ayudando a traer la fuerza de un
-                Super Saiyajin a su vida. ¡Que no falten las batallas épicas!
-              </p>
-              <p>Precio: $25.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/nube.jpg" alt="Robot Aspiradora" />
-            <div class="product-info">
-              <h3>Nube Voladora de Goku</h3>
-              <p style="text-align: justify">
-                ¿Qué tal volar sin preocupaciones de tráfico? Con este regalo,
-                el celebrante podrá contar con la famosa Nube Voladora de Goku.
-                Ayuda a cumplir el sueño de desplazarse por el cielo como un
-                verdadero guerrero, ¡y sin necesidad de carnet de conducir!
-              </p>
-              <p>Precio: $25.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/espada.jpg" alt="Viaje a París" />
-            <div class="product-info">
-              <h3>Espada de Zoro</h3>
-              <p style="text-align: justify">
-                El Espada de Zoro es ideal para el celebrante que quiere
-                enfrentarse al mundo con más estilo. Esta espada legendaria de
-                One Piece no solo es perfecta para cortar obstáculos, sino para
-                ser el mejor espadachín. ¡Que tu invitado tenga todo lo
-                necesario para cortar con cualquier problema que se cruce en su
-                camino!
-              </p>
-              <p>Precio: $40.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/trono.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>Trono de los Dioses (Juego de Tronos)</h3>
-              <p style="text-align: justify">
-                ¿Quién no quiere ser rey o reina por un día? Con este Trono de
-                los Dioses, el celebrante podrá sentarse con todo el poder de la
-                Casa Targaryen o cualquier otra noble. ¡Este es el regalo ideal
-                para quien desea sentir que está gobernando su propio reino!
-              </p>
-              <p>Precio: $55.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-
-          <div class="product-card">
-            <img src="./assets/img/poke.jpg" alt="Set de Platos" />
-            <div class="product-info">
-              <h3>Pokébola Maestra</h3>
-              <p style="text-align: justify">
-                ¡Atrapa a todos los Pokémon con esta Pokébola Maestra! Tus
-                invitados pueden ayudar a financiar este regalo para que el
-                celebrante se convierta en el maestro Pokémon definitivo. Con
-                esta Pokébola, no importa el nivel del Pokémon, ¡siempre será
-                atrapado!
-              </p>
-              <p>Precio: $15.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/martillo.jpg" alt="Robot Aspiradora" />
-            <div class="product-info">
-              <h3>Martillo de Thor</h3>
-              <p style="text-align: justify">
-                ¡Haz que el celebrante se convierta en un verdadero dios
-                nórdico! Con el Martillo de Thor, podrá invocar truenos y rayos
-                para resolver cualquier situación. Ya sea para llamar la
-                atención en una fiesta o para eliminar malas energías, este
-                martillo tiene múltiples usos. ¡El poder de los dioses estará en
-                sus manos!
-              </p>
-              <p>Precio: $80.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/tronosom.jpg" alt="Aca no hay nada!" />
-            <div class="product-info">
-              <h3>Trono de Sombra de Darth Vader</h3>
-              <p style="text-align: justify">
-                Siéntate como un verdadero Sith con este Trono de Sombra de
-                Darth Vader. Perfecto para cualquier fanático de Star Wars que
-                quiera dominar la galaxia desde la comodidad de su hogar. Este
-                regalo, además de cómodo, es un recordatorio constante de que el
-                lado oscuro está siempre cerca.
-              </p>
-              <p>Precio: $150.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/gandalf.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>Báculo de Gandalf</h3>
-              <p style="text-align: justify">
-                Con el Báculo de Gandalf, el celebrante podrá caminar por la
-                vida como un mago de sabiduría infinita. Aunque no pueda lanzar
-                hechizos (al menos no en la vida real), con este regalo, ¡todo
-                parece posible! Ideal para quien quiere sentirse como el
-                protagonista de su propia aventura épica.
-              </p>
-              <p>Precio: $65.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/escudo.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>Escudo de Capitán América</h3>
-              <p style="text-align: justify">
-                Este Escudo de Capitán América es más que un simple accesorio;
-                es una declaración de intenciones. El celebrante podrá
-                defenderse de todo tipo de dificultades (y hasta de comentarios
-                indeseados) mientras lo lleva con orgullo. ¡Nunca más se sentirá
-                vulnerable!
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/laser.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>Espada Láser de Star Wars</h3>
-              <p style="text-align: justify">
-                ¡Haz que el celebrante se convierta en un verdadero Jedi o Sith
-                con esta Espada Láser de Star Wars! No solo es un regalo
-                impresionante, sino también un recordatorio de que en su
-                corazón, siempre será parte de la lucha galáctica. ¡Que la
-                Fuerza esté con él o ella!
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/iron.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>Jetpack de Iron Man</h3>
-              <p style="text-align: justify">
-                ¡Deja que el celebrante se sienta como un superhéroe! Con un
-                Jetpack de Iron Man, podrá volar por los cielos como el
-                mismísimo Tony Stark. Un regalo perfecto para quienes siempre
-                soñaron con volar, y qué mejor que hacerlo con estilo y
-                tecnología avanzada.
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/casco.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>Casco de Halo</h3>
-              <p style="text-align: justify">
-                Con el Casco de Halo, el celebrante podrá ser el héroe del
-                futuro, listo para enfrentarse a cualquier amenaza
-                intergaláctica. ¡Un regalo que llevará el concepto de "escudo
-                protector" a otro nivel! ¡Siente la fuerza de un Spartan!
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/guantes.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>Guantes de Hulk</h3>
-              <p style="text-align: justify">
-                Imagina el poder de Hulk en las manos del celebrante. Con estos
-                Guantes de Hulk, podrá levantar lo que sea, ¡y destruir todo a
-                su paso (en sentido figurado, claro)! Este regalo es perfecto
-                para alguien que necesita liberar algo de estrés de manera
-                "superhumana".
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/strange.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>Bata de Doctor Strange</h3>
-              <p style="text-align: justify">
-                Con esta Bata de Doctor Strange, el celebrante podrá convertirse
-                en el hechicero supremo y defender el multiverso. Claro, no se
-                trata de invocar hechizos (aunque no estaría de más intentarlo),
-                pero seguro que con este regalo, cualquier fiesta se convertirá
-                en un evento mágico.
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/moto.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>Moto de Akira</h3>
-              <p style="text-align: justify">
-                ¡Recorre el futuro con esta Moto de Akira! Perfecto para los
-                amantes del anime y la ciencia ficción, este regalo les
-                permitirá a los invitados soñar con ser parte de las increíbles
-                carreras futuristas. Aportar a este sueño será como tener un
-                pedazo de Tokio en el futuro en casa.
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/zelda.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>Escudo de Link (Zelda)</h3>
-              <p style="text-align: justify">
-                Este Escudo de Link es el regalo perfecto para quien quiere
-                sentirse un verdadero héroe de Hyrule. Ideal para protegerse de
-                todo, desde problemas cotidianos hasta las fuerzas del mal. ¡Con
-                este escudo, el celebrante se sentirá listo para cualquier
-                aventura!
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/mart2.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>17. Martillo de Thor (Versión Miniatura)</h3>
-              <p style="text-align: justify">
-                El Martillo de Thor (Versión Miniatura) es un regalo ideal para
-                quienes prefieren la magia de los dioses pero en una versión más
-                práctica. ¡Perfecto para mantener el poder de Thor al alcance de
-                la mano sin que ocupe mucho espacio! ¡Porque hasta los dioses
-                necesitan viajar livianos!
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/zapatillas.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>Zapatos de Marty McFly (Back to the Future)</h3>
-              <p style="text-align: justify">
-                ¡Lleva el futuro a tu hogar con los Zapatos de Marty McFly!
-                Estos zapatos automáticos no solo son ideales para los fanáticos
-                de la saga de Back to the Future, sino que además, ¡quién no
-                quisiera tener unos zapatos que se ajustan solos! Ideal para dar
-                un toque de ciencia ficción a la vida diaria.
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/alitas.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>Alitas de Ángel (La película de Cazadores de Sombras)</h3>
-              <p style="text-align: justify">
-                ¡Haz que el celebrante vuele con estas Alitas de Ángel! Aunque
-                no pueda volar en la vida real, con este regalo se sentirá tan
-                celestial como un ser angelical. Ayuda a financiar este sueño y
-                transforma la realidad de quien lo reciba en algo tan épico como
-                una historia de fantasía.
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/bruce.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>Camisa de Bruce Lee (Para la paz interior)</h3>
-              <p style="text-align: justify">
-                ¡Inspira paz, calma y fuerza con la Camisa de Bruce Lee! Este
-                regalo es perfecto para quienes buscan conectar con su lado más
-                zen y ser tan invencibles como el propio Bruce Lee. ¡Ayuda al
-                celebrante a encontrar su equilibrio en la vida!
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/reali.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>Gafas de Realidad Virtual (Para el Futuro)</h3>
-              <p style="text-align: justify">
-                El kit de Gafas de Realidad Virtual es el regalo perfecto para
-                cualquiera que quiera explorar mundos virtuales y dejarse llevar
-                por la experiencia inmersiva. Ayuda a financiar esta experiencia
-                única que llevará al celebrante a lugares que solo existían en
-                su imaginación. ¡Que comience la aventura virtual!
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/pika.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>El gorro de Pikachu</h3>
-              <p style="text-align: justify">
-                Con el gorro de Pikachu, el celebrante podrá dar rienda suelta a
-                sus poderes eléctricos. ¡Perfecto para cargar de energía
-                cualquier fiesta y lanzar ataques de trueno a la diversión! Este
-                gorro no solo calentará sus pensamientos, sino que también
-                asegurará que todos se sientan conectados con la magia y la
-                alegría del mundo Pokémon. ¡Imposible resistirse al poder del
-                "¡Pika Pika!"!
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/traje.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>El traje de poder de Deku (My Hero Academia)</h3>
-              <p style="text-align: justify">
-                ¡Despierta tu héroe interior con el traje de poder de Deku!
-                Ideal para los que sueñan con ser el próximo All Might, pero con
-                el toque personal de Deku. Con este traje, el celebrante no solo
-                podrá defender la justicia, sino también estar preparado para
-                enfrentarse a los desafíos más difíciles, ya sea un villano
-                malvado o una montaña de tareas. ¡El héroe perfecto para
-                cualquier ocasión!
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/gundam.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>El casco de Gundam</h3>
-              <p style="text-align: justify">
-                Para los fanáticos del espacio y los mechas, este casco de
-                Gundam es un regalo imprescindible. ¡Prepárate para entrar en
-                combate intergaláctico y conquistar el universo con estilo! Este
-                casco es ideal para los que siempre soñaron con ser pilotos de
-                Gundam, pero con la ventaja de no tener que enfrentarse a
-                criaturas alienígenas (a menos que sea en una película, claro).
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/escoba.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>La escoba de Kiki (Kiki’s Delivery Service)</h3>
-              <p style="text-align: justify">
-                Con la escoba de Kiki, el celebrante podrá volar hacia cualquier
-                destino sin preocuparse por el tráfico. Perfecta para quienes
-                tienen una agenda apretada, esta escoba no solo es el medio de
-                transporte más práctico, sino también un símbolo de libertad y
-                aventuras. ¡Ideal para aquellos que quieren llegar a todos sus
-                compromisos volando, sin perder ni un minuto!
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/paraguas.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>El paraguas de Totoro</h3>
-              <p style="text-align: justify">
-                ¿Quién dijo que un día lluvioso no puede ser mágico? Con el
-                paraguas de Totoro, el celebrante podrá disfrutar de las lluvias
-                sin dejar que el clima los arruine. No solo es funcional, sino
-                también un objeto lleno de magia y buena energía, para acompañar
-                cada paso en las aventuras cotidianas. ¡Porque si Totoro puede
-                ser tan alegre bajo la lluvia, nosotros también podemos!
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/collar.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>El collar de perlas de Sesshomaru</h3>
-              <p style="text-align: justify">
-                Este collar de perlas de Sesshomaru es perfecto para quienes
-                quieren mantener su elegancia sobrenatural. Un accesorio digno
-                de los guerreros más poderosos, ideal para aquellos que buscan
-                añadir un toque de distinción y poder místico a su estilo. ¡Con
-                él, el celebrante podrá caminar por la vida con el orgullo y la
-                serenidad de un verdadero ser sobrenatural!
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/ocarina.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>El ocarina de Link (The Legend of Zelda)</h3>
-              <p style="text-align: justify">
-                Aunque no sea estrictamente un anime, este ocarina de Link es un
-                clásico que todos aman. Ideal para aquellos que desean tocar
-                melodías mágicas que abren portales a otros mundos (o, al menos,
-                a buenos recuerdos). Este regalo es perfecto para los fanáticos
-                de The Legend of Zelda que siempre soñaron con vivir sus propias
-                aventuras, ¡y tal vez desencadenar una gran épica al soplar en
-                él!
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/pistola.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>La pistola de Vash la Estampida (Trigun)</h3>
-              <p style="text-align: justify">
-                ¿Quién no quiere la pistola de Vash la Estampida? Un regalo
-                perfecto para los que buscan estilo y un toque de acción. Con
-                esta pistola, el celebrante podrá enfrentarse a cualquier
-                desafío (y lucir increíble mientras lo hace). Ideal para
-                aquellos que desean ser un poco más impredecibles y mantener a
-                todos alerta. ¡Es el toque perfecto para un "cowboy" moderno!
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/huevo.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>El huevo de Digimon</h3>
-              <p style="text-align: justify">
-                ¡El huevo de Digimon es el regalo más misterioso y emocionante!
-                Porque nunca se sabe qué creatura digital saldrá de él. Perfecto
-                para los que siempre quisieron tener su propio Digimon como
-                compañero. Este huevo es ideal para aquellos que sueñan con
-                aventuras digitales y batallas épicas. ¡Con suerte, aparecerá un
-                Agumon o algo igual de impresionante para unirse a la diversión!
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/tiempo.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>Un entrenamiento en la Cámara del Tiempo</h3>
-              <p style="text-align: justify">
-                ¿Quieres mejorar en 24 horas? ¡Con un entrenamiento en la Cámara
-                del Tiempo, podrás volverte más fuerte en un día que en toda una
-                vida! Ideal para los que necesitan una dosis extra de poder y
-                quieren verse como los Saiyajin en su mejor momento. Eso sí,
-                prepárate para que el tiempo se estire de manera mágica.
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/comida.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>Comida infinita de Sanji</h3>
-              <p style="text-align: justify">
-                ¡Este regalo es ideal para los que creen que nunca se puede
-                tener suficiente comida! Con la comida infinita de Sanji, el
-                celebrante podrá disfrutar de un festín sin fin, como si
-                estuviera en One Piece. Perfecto para los que aman la buena
-                cocina y las fiestas llenas de sabor. ¡Porque no hay carrete sin
-                un buen chef!
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/abrazo.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>Un abrazo de Totoro</h3>
-              <p style="text-align: justify">
-                Después de un largo día de aventuras, no hay nada como un abrazo
-                de Totoro. Este regalo es el más reconfortante, perfecto para
-                calmar el estrés y recordar que siempre hay algo mágico
-                esperando al final del día. ¡Ideal para los que necesitan un
-                poco de cariño y magia!
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
-          <div class="product-card">
-            <img src="./assets/img/sailor.jpg" alt="Juego de Toallas" />
-            <div class="product-info">
-              <h3>Una transformación de Sailor Moon</h3>
-              <p style="text-align: justify">
-                ¿Quién no ha querido hacer una transformación al estilo Sailor
-                Moon? Con este regalo, el celebrante podrá brillar en cualquier
-                evento, sin importar el lugar ni la ocasión. ¡Prepárate para ser
-                la estrella de la fiesta con el poder de la prisma lunar y un
-                cambio de look espectacular!
-              </p>
-              <p>Precio: $95.000.-</p>
-              <button class="btn btn-primary openModal">Elegir</button>
-            </div>
-          </div>
+          <h2>Servicios</h2>
+          <p style="text-align: justify">
+            En Mi Lista de Sueños, reinventamos las tradicionales listas de
+            regalos, creando una experiencia única para cualquier celebración.
+            Ya sea un cumpleaños, bautizo, boda o cualquier ocasión especial, te
+            ayudamos a crear una lista personalizada de deseos y sueños que tus
+            invitados podrán cumplir de una manera significativa.
+          </p>
+          <br />
+          <p style="text-align: justify">
+            Crea tu lista de sueños personalizada: Puedes agregar a tu lista
+            todos los sueños o deseos que te gustaría alcanzar. Cada sueño tiene
+            un valor determinado, y tus invitados podrán elegir qué sueño
+            quieren regalarte, contribuyendo con su valor específico. Desde
+            experiencias increíbles hasta metas personales, cada contribución
+            será un regalo único y pensado especialmente para ti.
+          </p>
+          <br />
+          <p style="text-align: justify">
+            Los invitados contribuyen a cumplir tus sueños: Los invitados no
+            solo te regalan un objeto, sino que compran un sueño para ti. Al
+            hacerlo, contribuyen directamente a que alcances tus metas o vivas
+            experiencias inolvidables, como un viaje, un curso, o cualquier otro
+            deseo que hayas incluido en tu lista.
+          </p>
+          <br />
+          <p style="text-align: justify">
+            Evita regalos innecesarios: Olvídate de los regalos que no necesitas
+            o que no son de tu agrado. En lugar de objetos que ocupen espacio,
+            tus invitados contribuyen directamente a lo que realmente deseas,
+            haciendo que cada regalo sea relevante, útil y, lo más importante,
+            algo que realmente quieres.
+          </p>
         </div>
 
-        <a
-          href="https://wa.me/?text=¡Te%20comparto%20mi%20lista%20de%20sueños:%20https://pagina3-ten.vercel.app/"
-          target="_blank"
-          class="btn-share-whatsapp"
-        >
-          Comparte tu Lista en WhatsApp
-        </a>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row g-4">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-card d-flex">
+                <div class="icon flex-shrink-0">
+                  <img
+                    src="assets/img/boda.png"
+                    alt="Diagrama"
+                    style="width: 50px; height: 50px"
+                  />
+                </div>
+                <div>
+                  <h3>Matrimonios: El comienzo de una vida juntos</h3>
+                  <p style="text-align: justify">
+                    El día de tu matrimonio es el inicio de una nueva etapa
+                    llena de sueños y proyectos en pareja. En Mi Lista de
+                    Sueños, te ayudamos a transformar este momento tan especial
+                    en una oportunidad única para recibir contribuciones
+                    significativas. Olvídate de los regalos que no necesitas y
+                    crea una lista personalizada con todo lo que deseas: desde
+                    ese viaje soñado hasta fondos para comenzar tu nuevo hogar.
+                    Nosotros te facilitamos el proceso, para que tus invitados
+                    formen parte de este día inolvidable de una manera especial
+                    y auténtica.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Card -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-card d-flex">
+                <div class="icon flex-shrink-0">
+                  <img
+                    src="assets/img/bbb.png"
+                    alt="Diagrama"
+                    style="width: 50px; height: 50px"
+                  />
+                </div>
+                <div>
+                  <h3>Bautizo: Regala Sueños desde el Corazón</h3>
+                  <p style="text-align: justify">
+                    El bautizo es un momento especial de bienvenida a la vida, y
+                    en Mi Lista de Sueños transformamos este acontecimiento en
+                    una celebración única. En lugar de regalos tradicionales,
+                    tus seres queridos pueden contribuir a la realización de un
+                    sueño significativo para tu pequeño/a, haciendo de esta
+                    ocasión un recuerdo inolvidable. Ya sea un futuro viaje, una
+                    actividad que marque su crecimiento o cualquier deseo
+                    especial, cada regalo se convierte en un símbolo del amor y
+                    la esperanza de quienes lo rodean. ¡Celebra el bautizo de tu
+                    bebé de manera diferente, creando una lista de sueños que
+                    simbolicen los hermosos momentos que vivirán juntos!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Card -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-card d-flex">
+                <div class="icon flex-shrink-0">
+                  <img
+                    src="assets/img/peq.png"
+                    alt="Diagrama"
+                    style="width: 50px; height: 50px"
+                  />
+                </div>
+                <div>
+                  <h3>Colectas: Juntos hacemos más</h3>
+                  <p style="text-align: justify">
+                    A veces, los momentos más significativos son los que
+                    compartimos con una causa mayor. En Mi Lista de Sueños, te
+                    ayudamos a organizar colectas de manera simple y efectiva.
+                    Ya sea para apoyar a un amigo, recaudar fondos para un
+                    proyecto solidario o reunir recursos para una meta en común,
+                    nuestra plataforma te permite recibir aportes de manera
+                    transparente y significativa. Porque juntos, podemos
+                    convertir cualquier sueño en realidad.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Card -->
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="service-card d-flex">
+                <div class="icon flex-shrink-0">
+                  <img
+                    src="assets/img/qqq.png"
+                    alt="Diagrama"
+                    style="width: 50px; height: 50px"
+                  />
+                </div>
+                <div>
+                  <h3>Cumpleaños: Celebra tu vida a tu manera</h3>
+                  <p style="text-align: justify">
+                    Tu cumpleaños es más que una fecha: es una oportunidad para
+                    celebrar quién eres y compartir tus sueños con quienes más
+                    amas. En Mi Lista de Sueños, te ayudamos a diseñar una lista
+                    personalizada para que recibas lo que realmente deseas.
+                    Desde experiencias inolvidables hasta regalos que marcarán
+                    la diferencia en tu vida, olvídate de las sorpresas que no
+                    necesitas y permite que tus amigos y familiares contribuyan
+                    a aquello que realmente te hará feliz. ¡Haz que este
+                    cumpleaños sea único e inolvidable!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Card -->
+          </div>
+        </div>
       </section>
+      <!-- /Services Section -->
+
+      <!-- Pricing Section -->
+      <section id="pricing" class="pricing section light-background">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Precios</h2>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row g-4 justify-content-center">
+            <!-- Basic Plan -->
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="pricing-card">
+                <h3>matrimonios</h3>
+                <div class="price">
+                  <span class="amount">10%</span>
+                  <span class="period"> / regalo</span>
+                </div>
+                <p class="description">Sueña en Grande, Vive tu Historia</p>
+
+                <h4>que incluye:</h4>
+                <ul class="features-list">
+                  <li style="text-align: justify">
+                    <i class="bi bi-check-circle-fill"></i>
+                    Flexibilidad Total: Transforma tus sueños en contribuciones
+                    significativas y recibe lo que realmente deseas para
+                    comenzar tu vida en pareja.
+                  </li>
+                  <li style="text-align: justify">
+                    <i class="bi bi-check-circle-fill"></i>
+                    Detalles Memorables: No son solo regalos, son símbolos de
+                    los sueños que construirán juntos.
+                  </li>
+                  <li style="text-align: justify">
+                    <i class="bi bi-check-circle-fill"></i>
+                    Sencillez y Seguridad: Comparte tu lista personalizada con
+                    facilidad y recibe aportes de tus seres queridos de manera
+                    segura y transparente.
+                  </li>
+                </ul>
+
+                <a href="https://pagina20.vercel.app/" class="btn btn-primary">
+                  Prueba
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Standard Plan -->
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="pricing-card popular">
+                <div class="popular-badge">mas vendido</div>
+                <h3>Cumpleaños / Bautizos</h3>
+                <div class="price">
+                  <span class="amount">5%</span>
+                  <span class="period"> / regalo</span>
+                </div>
+                <p class="description">Celebrando la Vida</p>
+
+                <h4>que incluye::</h4>
+                <ul class="features-list">
+                  <li style="text-align: justify">
+                    <i class="bi bi-check-circle-fill"></i>
+                    Flexibilidad Total: Permite que tus seres queridos
+                    contribuyan a los sueños que tienes para tu bebé, desde
+                    recuerdos hasta proyectos para su futuro.
+                  </li>
+                  <li style="text-align: justify">
+                    <i class="bi bi-check-circle-fill"></i>
+                    Significado Especial: Cada regalo simboliza el amor y apoyo
+                    de quienes celebran este momento único contigo.
+                  </li>
+                  <li style="text-align: justify">
+                    <i class="bi bi-check-circle-fill"></i>
+                    Sencillez y Seguridad: Crea y comparte tu lista en pocos
+                    pasos, con la tranquilidad de un sistema fácil y confiable
+                    para todos.
+                  </li>
+                </ul>
+
+                <a href="https://pagina20.vercel.app/" class="btn btn-light">
+                  Prueba
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Premium Plan -->
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="pricing-card">
+                <h3>Colectas</h3>
+                <div class="price">
+                  <span class="amount">3%</span>
+                  <span class="period"> / donacion</span>
+                </div>
+                <p class="description">Juntos hacemos más</p>
+
+                <h4>que incluye:</h4>
+                <ul class="features-list">
+                  <li style="text-align: justify">
+                    <i class="bi bi-check-circle-fill"></i>
+                    Flexibilidad Total: Desde experiencias inolvidables hasta
+                    metas compartidas, recibe el apoyo que necesitas para hacer
+                    realidad tus sueños o proyectos.
+                  </li>
+                  <li style="text-align: justify">
+                    <i class="bi bi-check-circle-fill"></i>
+                    Conexión Real: Cada contribución se convierte en un gesto
+                    significativo que une a las personas en torno a un
+                    propósito.
+                  </li>
+                  <li style="text-align: justify">
+                    <i class="bi bi-check-circle-fill"></i>
+                    Sencillez y Seguridad: Una plataforma práctica, transparente
+                    y segura para ti y todos tus invitados.
+                  </li>
+                </ul>
+
+                <a href="https://pagina20.vercel.app/" class="btn btn-primary">
+                  Prueba
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Pricing Section -->
+
+      <!-- Faq Section -->
+      <section class="faq-9 faq section light-background" id="faq">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5" data-aos="fade-up">
+              <h2 class="faq-title">Tienes dudas?</h2>
+              <p class="faq-description">Preguntas frecuentes</p>
+              <div
+                class="faq-arrow d-none d-lg-block"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <svg
+                  class="faq-arrow"
+                  width="200"
+                  height="211"
+                  viewBox="0 0 200 211"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M198.804 194.488C189.279 189.596 179.529 185.52 169.407 182.07L169.384 182.049C169.227 181.994 169.07 181.939 168.912 181.884C166.669 181.139 165.906 184.546 167.669 185.615C174.053 189.473 182.761 191.837 189.146 195.695C156.603 195.912 119.781 196.591 91.266 179.049C62.5221 161.368 48.1094 130.695 56.934 98.891C84.5539 98.7247 112.556 84.0176 129.508 62.667C136.396 53.9724 146.193 35.1448 129.773 30.2717C114.292 25.6624 93.7109 41.8875 83.1971 51.3147C70.1109 63.039 59.63 78.433 54.2039 95.0087C52.1221 94.9842 50.0776 94.8683 48.0703 94.6608C30.1803 92.8027 11.2197 83.6338 5.44902 65.1074C-1.88449 41.5699 14.4994 19.0183 27.9202 1.56641C28.6411 0.625793 27.2862 -0.561638 26.5419 0.358501C13.4588 16.4098 -0.221091 34.5242 0.896608 56.5659C1.8218 74.6941 14.221 87.9401 30.4121 94.2058C37.7076 97.0203 45.3454 98.5003 53.0334 98.8449C47.8679 117.532 49.2961 137.487 60.7729 155.283C87.7615 197.081 139.616 201.147 184.786 201.155L174.332 206.827C172.119 208.033 174.345 211.287 176.537 210.105C182.06 207.125 187.582 204.122 193.084 201.144C193.346 201.147 195.161 199.887 195.423 199.868C197.08 198.548 193.084 201.144 195.528 199.81C196.688 199.192 197.846 198.552 199.006 197.935C200.397 197.167 200.007 195.087 198.804 194.488ZM60.8213 88.0427C67.6894 72.648 78.8538 59.1566 92.1207 49.0388C98.8475 43.9065 106.334 39.2953 114.188 36.1439C117.295 34.8947 120.798 33.6609 124.168 33.635C134.365 33.5511 136.354 42.9911 132.638 51.031C120.47 77.4222 86.8639 93.9837 58.0983 94.9666C58.8971 92.6666 59.783 90.3603 60.8213 88.0427Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+
+            <div class="col-lg-7" data-aos="fade-up" data-aos-delay="300">
+              <div class="faq-container">
+                <div class="faq-item faq-active">
+                  <h3>¿Qué es Mi Lista de Sueños</h3>
+                  <div class="faq-content">
+                    <p style="text-align: justify">
+                      Mi Lista de Sueños es una plataforma donde puedes crear
+                      una lista personalizada de regalos para celebraciones como
+                      matrimonios, cumpleaños, bautizos o colectas. Los regalos
+                      son imaginarios, pero sus valores son reales, permitiendo
+                      que tus invitados contribuyan económicamente. Al final, te
+                      entregamos el dinero recaudado para que lo uses como
+                      prefieras.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>¿Cómo funciona Mi Lista de Sueños?</h3>
+                  <div class="faq-content">
+                    <p>
+                      El proceso es muy sencillo: <br />
+                      1. Crea tu lista de regalos personalizados, agregando los
+                      sueños que quieres hacer realidad. <br />
+                      2. Comparte tu lista con tus invitados, quienes pueden
+                      hacer aportes al regalo que elijan. <br />
+                      3. Una vez finalizado el evento, te entregamos el dinero
+                      recaudado para que lo utilices como desees.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>¿Los regalos son reales?</h3>
+                  <div class="faq-content">
+                    <p style="text-align: justify">
+                      No, los regalos son imaginarios, pero su valor es real.
+                      Tus invitados hacen contribuciones económicas al regalo
+                      que elijan, y al final del proceso te entregamos el dinero
+                      recaudado. Tú decides cómo y dónde usar ese dinero.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>
+                    ¿Qué pasa si no se completa el valor total de un regalo?
+                  </h3>
+                  <div class="faq-content">
+                    <p style="text-align: justify">
+                      No te preocupes. En Mi Lista de Sueños, todos los aportes
+                      cuentan. Si un regalo no alcanza su valor total, igual
+                      recibirás el dinero aportado por tus invitados. ¡Nada se
+                      pierde!
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>¿Cuánto cobra Mi Lista de Sueños por el servicio?</h3>
+                  <div class="faq-content">
+                    <p>
+                      Cobramos un porcentaje sobre el total recaudado,
+                      dependiendo del tipo de evento: <br />
+                      Matrimonios: 10% <br />
+                      Bautizos y cumpleaños: 5% <br />
+                      Colectas: 3% <br />
+                      El resto del dinero es tuyo, sin cargos ocultos.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <!-- End Faq item-->
+
+                <div class="faq-item">
+                  <h3>¿Cómo puedo recibir el dinero recaudado?</h3>
+                  <div class="faq-content">
+                    <p style="text-align: justify">
+                      Una vez que finalice tu evento, te transferimos el dinero
+                      directamente a tu cuenta bancaria. Es un proceso rápido,
+                      seguro y transparente.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <div class="faq-item">
+                  <h3>
+                    ¿Qué ventajas tiene Mi Lista de Sueños frente a una lista de
+                    regalos tradicional?
+                  </h3>
+                  <div class="faq-content">
+                    <p style="text-align: justify">
+                      Con Mi Lista de Sueños, tú tienes el control total sobre
+                      el dinero recaudado. Olvídate de recibir regalos que no
+                      necesitas o no se ajustan a tus gustos. Además, permite a
+                      tus invitados contribuir a sueños significativos y
+                      personalizados, haciéndolos sentir parte importante de tu
+                      celebración.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <div class="faq-item">
+                  <h3>¿Es seguro usar Mi Lista de Sueños?</h3>
+                  <div class="faq-content">
+                    <p style="text-align: justify">
+                      Sí, nuestra plataforma es completamente segura. Contamos
+                      con sistemas que garantizan que todas las transacciones
+                      sean confiables y transparentes, para que tanto tú como
+                      tus invitados tengan una experiencia sin preocupaciones.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+                <div class="faq-item">
+                  <h3>¿Cómo puedo empezar a usar Mi Lista de Sueños?</h3>
+                  <div class="faq-content">
+                    <p style="text-align: justify">
+                      ¡Es muy fácil! Solo tienes que contactarnos y te guiaremos
+                      paso a paso para crear tu lista de sueños personalizada.
+                      Estaremos contigo en todo el proceso, asegurándonos de que
+                      tu experiencia sea inolvidable.
+                    </p>
+                  </div>
+                  <i class="faq-toggle bi bi-chevron-right"></i>
+                </div>
+
+                <!-- End Faq item-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Faq Section -->
+
+      <!-- Call To Action 2 Section -->
+
+      <!-- /Call To Action 2 Section -->
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact section light-background">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Contactanos</h2>
+          <p>
+            Necesitas contactarte con nostros, hazlo a traves de nuestros
+            canales de atencion.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row g-4 g-lg-5">
+            <div class="col-lg-5">
+              <div class="info-box" data-aos="fade-up" data-aos-delay="200">
+                <h3>Siguenos en nuestras redes sociales</h3>
+                <p>
+                  Escribenos y te responderemos todas tus dudas a la brevedad
+                </p>
+
+                <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+                  <div class="icon-box">
+                    <i class="bi bi-instagram"></i>
+                  </div>
+                  <div class="content">
+                    <h4>Milistadesuenos</h4>
+
+                    <a href="https://www.instagram.com/milistadesuenos"
+                      >milistadesuenos</a
+                    >
+                  </div>
+                </div>
+
+                <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+                  <div class="icon-box">
+                    <i class="bi bi-telephone"></i>
+                  </div>
+                  <div class="content">
+                    <h4>Whatsapp</h4>
+                    <a
+                      href="https://wa.me/56961457336"
+                      class="contact-number"
+                      target="_blank"
+                    >
+                      +56961457336
+                    </a>
+                  </div>
+                </div>
+
+                <div class="info-item" data-aos="fade-up" data-aos-delay="500">
+                  <div class="icon-box">
+                    <i class="bi bi-envelope"></i>
+                  </div>
+                  <div class="content">
+                    <h4>Email</h4>
+                    <a href="mailto:Milistadesuenos13@gmail.com"
+                      >Milistadesuenos13@gmail.com</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-7">
+              <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+                <h3>Enviar mensaje directo</h3>
+                <p>puedes pedir informacion por aca</p>
+
+                <form
+                  action="https://formsubmit.co/luis.conejeros@ispservice.cl"
+                  method="post"
+                  class="php-email-form"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <div class="row gy-4">
+                    <div class="col-md-6">
+                      <input
+                        type="text"
+                        name="name"
+                        class="form-control"
+                        placeholder="nombre"
+                        required=""
+                      />
+                    </div>
+
+                    <div class="col-md-6">
+                      <input
+                        type="email"
+                        class="form-control"
+                        name="email"
+                        placeholder="correo"
+                        required=""
+                      />
+                    </div>
+
+                    <div class="col-12">
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="subject"
+                        placeholder="asunto"
+                        required=""
+                      />
+                    </div>
+
+                    <div class="col-12">
+                      <textarea
+                        class="form-control"
+                        name="message"
+                        rows="6"
+                        placeholder="Mensaje"
+                        required=""
+                      ></textarea>
+                    </div>
+
+                    <div class="col-12 text-center">
+                      <div class="loading">Loading</div>
+                      <div class="error-message"></div>
+                      <div class="sent-message">
+                        Gracias por contactarte con nosotros!!
+                      </div>
+                      <button type="submit" class="btn">Enviar Mensaje</button>
+                      <input type="hidden" name="_captcha" value="false" />
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Contact Section -->
     </main>
 
     <footer id="footer" class="footer">
@@ -678,7 +782,7 @@
         <div class="row gy-4">
           <div class="col-lg-4 col-md-6 footer-about">
             <a href="index.html" class="logo d-flex align-items-center">
-              <span class="sitename">Mi Lista de Sueños</span>
+              <span class="sitename">Lista de Sueños</span>
             </a>
             <div class="footer-contact pt-3">
               <p class="mt-3">
@@ -715,6 +819,31 @@
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Links</h4>
+            <ul>
+              <li><a href="#ero">Home</a></li>
+              <li><a href="#about">Nosotros</a></li>
+              <li><a href="#services">Servicios</a></li>
+              <li><a href="#pricing">Precios</a></li>
+              <li><a href="#contact">Contactanos</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Eventos</h4>
+            <ul>
+              <li><a href="#services">Matrimonios</a></li>
+              <li><a href="#services">Bautizos</a></li>
+              <li><a href="#services">Colectas</a></li>
+              <li><a href="#services">Cumpleaños</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <ul></ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
             <ul></ul>
           </div>
         </div>
@@ -723,7 +852,7 @@
       <div class="container copyright text-center mt-4">
         <p>
           © <span>Copyright</span>
-          <strong class="px-1 sitename">Mi Lista de sueños</strong>
+          <strong class="px-1 sitename">Lista de sueños</strong>
           <span>All Rights Reserved</span>
         </p>
         <div class="credits">
